@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #0F172A;
+    
+}
+
+/* custom */
+.btn{
+    border: 0;
+    border-radius: 5px;
+    background-color: #9333EA;
+    padding: 15px 31px;
+    border:2px solid #9333EA;
+
+}
+
+.btn2{
+    border: 0;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 13px 23px;
+    transition: 3300ms;
+
+}
+
+/* header */
+nav ul{
+    list-style:none;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+header{
+    margin: 1.5% 20% 0% 20%;
+    background-color: #1e2536;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 25px;
+    flex: 1;
+    
+}
+
+div.stats{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+div.logo{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+div.logo{
+    font-size: 20px;
+}
+
+/* section one*/
+
+
+section.one div.a p.a{
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    margin-top: 5%;
+}
+
+section.one div.a p.b{
+    display: flex;
+    justify-content: center;
+    margin: 2.5% 0% 0% 0%;
+    font-size: 15px;
+    
+}
+section.one div.a p.c{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+section.one div.c{
+    display: flex;
+    justify-content: center;
+    gap: 0.8%;
+    margin-top: 1.5%;
+}
+
+section.one div.d{
+    display: flex;
+    justify-content: center;
+}
+
+/* section two */
+
+
+section.two div{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+section.two p.one{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+}
+
+section.two>div{
+    margin-top: 5% ;
+    display: flex;
+    justify-content: center; 
+    justify-items: center;
+    gap: 8%;
+    
+
+}
+
+section.two p{
+    margin-top: 15px;
+}
+
+section.two div.one img{
+    width: 70px;
+    height: 55px;
+}
+
+section.two div div.two img{
+    margin: 17px;
+    height: 15px;
+    width: 80px;
+}
+section.two div div.there img{
+    margin-top: 13px;
+    margin-right: 7px;
+    height: 30px;
+    width: 35px;
+}
+
+/* section there */
+
+section.there{
+    display: flex;
+    margin-top: 100px;
+    
+}
+section.there img{
+    height: 400px;
+    width: 600px;
+    margin-right: 40px;
+    
+}
+
+section.there div.one{
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+
+section.there p.a{
+    font-size: 17px;
+
+}
+section.there p.b{
+    margin-top: 15px;
+    font-size: 45px;
+
+}
+section.there p.c{
+    margin-top: 55px;
+    margin-right:85px;
+    font-size: 15px;
+
+}
+section.there p.d{
+    margin-top: 25px;
+    font-size: 15px;
+
+}
+
+/* section four */
+
+section.four{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 110px;
+}
+section.four img{
+    height: 400px;
+    width: 640px;
+}
+
+section.four div.one {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+section.four div.one p.b {
+    margin-top: 20px;
+    margin-right: 300px;
+    font-size: 40px;
+}
+
+section.four div.one p.c {
+    margin-top: 40px;
+    margin-right: 270px;
+}
+
+/* section five */
+
+
+section.five{
+    margin-top: 160px;
+    display: flex;
+}
+section.five img{
+    height: 400px;
+    width: 670px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+section.five div.one{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+
+section.five div.one p.a{
+    font-size: 20px;
+}
+
+section.five div.one p.b{
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+section.five div.one p.c{
+    font-size: 15px;
+    margin-top: 35px;
+    margin-right: 230px;
+}
+
+/* section.six */
+
+section.six{
+    padding-top: 120px;
+    margin-top: 160px;
+    padding-bottom: 100px;
+    display: flex;
+    background-color: #9333EA;
+}
+
+section.six div.two img {
+    height: 700px;
+    width: 500px;
+    margin-left: 60px;
+    padding-left: 0px;
+
+}
+
+section.six div.one{
+    margin-top: 300px;
+    margin-left: 120px;
+    width: 320px;
+}
+
+section.six div.one p.a{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+section.six div.one p.b{
+    font-size: 35px;
+    margin-bottom: 30px;
+
+    
+}
+section.six div.one p.c{
+    font-size: 15px;
+    
+}
+
+section.six div.there{
+    padding-top: 280px;
+    padding-left: 90px;
+    width: 300px;
+}
+
+
+section.six div.there img{
+    height: 50px;
+    width: 50px;
+    border-radius: 1110px;
+    margin-left: 80px;
+}
+
+section.six div.there p.c{
+    margin-top: 15px;
+    padding-left: 60px;
+}
+
+section.six div.there p.a{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-right: 70px;
+    
+}
+
+/* section seven */
+
+section.seven {
+    background-color: white;
+    padding-bottom: 100px;
+
+    border-bottom: 2px solid rgb(170, 170, 170);
+    
+}
+
+section.seven section{
+    margin: 0% 8%;
+    padding-top: 50px;
+}
+section.seven div.one{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.seven div.one p.a{
+    font-size: 35px;
+}
+
+section.seven div.two {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    gap:220px;
+    
+}
+
+section.seven div.two img{
+    border-radius: 10px;
+}
+
+section.seven div.two div.a p.a{
+    margin-top: 7px;
+    color: black;
+    font-size: 15px;
+}
+
+section.seven div.two div.a p.b{
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+section.seven div.two div.a p.c{
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+
+
+section.seven div.two div.b p.a{
+    margin-top: 7px;
+    color: black;
+    font-size: 15px;
+}
+
+section.seven div.two div.b p.b{
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+section.seven div.two div.b p.c{
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+
+
+section.seven div.two div.c p.a{
+    margin-top: 7px;
+    color: black;
+    font-size: 15px;
+}
+
+section.seven div.two div.c p.b{
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+section.seven div.two div.c p.c{
+    margin-top: 25px;
+    font-size: 13px;
+}
+footer p {
+    color: black;
+}
+
+aside{
+    background-color: white;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    padding-left: 110PX;
+    padding-top: 60px;
+    gap: 150px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(170, 170, 170);
+    margin: 0px 110px;
+
+}
+
+footer div.two p{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+footer h1  {
+color: black;
+
+}
+footer h2{
+    font-size: 15px;
+    color: gray;
+}
+body>div{
+    height: 100px;
+    background-color: white;
+}
+
+
+ h6{
+    color: rgb(92, 85, 85);
+    padding-top: 40px;
+    padding-left: 110px;
+    font-size: 15px;
+ }
+
+section.there{
+    display: flex;
+    justify-content: center;
+}
+section.four{
+    display: flex;
+    justify-content: center;
+}
+section.five{
+    display: flex;
+    justify-content: center;
+}
+section.six{
+    display: flex;
+    justify-content: center;
+}
+section.seven{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    border: 2 solid wheat;
+    background-color: transparent;
+    padding: 15px 31px;
+    border:2px solid white;
+    transition: 300ms;
+}
+
+button{
+    pointer-events: fill;
+    cursor: pointer;
+    transition: 3300ms;
+    
+}
+
+.btn2:hover{
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 13px 23px;
+    color: black;
+    transition: 300ms;
+    
+
+}
